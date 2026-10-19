@@ -2,7 +2,7 @@
   "name": "bot-gastos",
   "version": "1.0.0",
   "type": "module",
-  "main": "server.js",
+  "main": "server-zapi.js",
   "scripts": {
     "start": "node server.js",
     "start:zapi": "node server-zapi.js"
