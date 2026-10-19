@@ -2,10 +2,10 @@
   "name": "bot-gastos",
   "version": "1.0.0",
   "type": "module",
-  "main": "server-zapi.js",
+  "main":"server-zapi.js",
   "scripts": {
     "start": "node server.js",
-    "start:zapi": "node server-zapi.js"
+    "start":"node server-zapi.js"
   },
   "engines": {
     "node": ">=18"
