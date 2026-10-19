@@ -29,4 +29,4 @@ app.post('/webhook/:secret', (req, res) => {
 });
 
 app.get('/', (_req, res) => res.send((process.env.BOT_NAME || 'Assistente de Gastos') + ': no ar'));
-app.listen(PORT, () => console.log('Servidor Z-API na porta', PORT));
+app.listen(PORT, '0.0.0.0', () => console.log('Servidor Z-API na porta', PORT));
